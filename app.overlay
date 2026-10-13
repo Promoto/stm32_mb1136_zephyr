@@ -1,0 +1,7 @@
+
+/* app.overlay */
+&usart3 {
+    status = "okay";
+    current-speed = <115200>;
+    /* 如果有腳位變更，需補上 pinctrl 設定 */
+};
